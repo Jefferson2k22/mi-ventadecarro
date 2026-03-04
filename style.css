@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #007BFF;
+    --secondary-color: #28A745;
+    --dark-text: #343A40;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: var(--dark-text);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.card {
+    transition: transform 0.3s ease, shadow 0.3s ease;
+    border: none;
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.product-img {
+    height: 200px;
+    object-fit: contain;
+    padding: 20px;
+}
+
+.modal-product-img {
+    max-height: 400px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.badge-price {
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    font-weight: bold;
+}
